@@ -61,7 +61,7 @@ def test_is_prime_number(n, expected):
 
 
 @pytest.mark.parametrize("n,expected", [
-    (2, True),
+    (4, True),
     (3, False),
     (1.5, False),
     (17, False),
