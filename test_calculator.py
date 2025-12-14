@@ -38,6 +38,7 @@ def test_multiply(a, b, expected):
 @pytest.mark.parametrize("a,b,expected", [
     (6, 3, 2),
     (5, 2, 2.5),
+    (9, 3, 3), 
     (-10, 2, -5)
 ])
 def test_divide(a, b, expected):
