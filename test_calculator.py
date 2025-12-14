@@ -28,6 +28,7 @@ def test_subtract(a, b, expected):
     (2, 3, 6),
     (0, 0, 0),
     (-1, 1, -1),
+    (-5, -2, 10),
     (2.5, 4, 10.0)
 ])
 def test_multiply(a, b, expected):
